@@ -1,16 +1,17 @@
 {
-  "name": "Quiz4",
+  "name": "quiz4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
   },
   "private": true,
   "devDependencies": {
     "browser-sync": "^3.0.3",
     "gulp": "^5.0.0",
     "gulp-debug": "^4.0.0",
-    "gulp-less": "^5.0.0"
+    "gulp-less": "^5.0.0",
+    "http-server": "^14.1.1"
   }
 }
